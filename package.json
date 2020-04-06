@@ -1,0 +1,22 @@
+{
+  "name": "dependency-injection-ts",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Ian Gilham",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start:noDI": "node dist/noDI/index.js",
+    "start:mutatorDI": "node dist/mutatorDI/index.js",
+    "start:constructorDI": "node dist/constructorDI/index.js",
+    "start:simpleDI": "node dist/simpleDI/index.js",
+    "start:InversifyDI": "node dist/InversifyDI/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "12.x.x",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.8.3"
+  }
+}
