@@ -1,5 +1,7 @@
 # Dependency Injection in Typescript
 
+[Dependency inversion](https://en.wikipedia.org/wiki/Dependency_inversion_principle) is a complicated topic. This repo explores the most common, simple issue as it relates to software development.
+
 ## Build
 
 ```shell
